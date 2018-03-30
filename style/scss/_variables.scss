@@ -1,0 +1,24 @@
+// fonts
+$font-weight: 400;
+$font-size: 12px;
+$line-height: 1.3;
+
+// colors
+
+$bg-color: #f8f8f9;
+
+$primary-color-1: #627077;
+$primary-color-2: #49555C;
+$primary-color-3: #374148;
+$primary-color-4: #2B343B;
+
+$secondary-color-1: #75BC82;
+$secondary-color-2: #569F62;
+$secondary-color-3: #41874C;
+$secondary-color-4: #2B7035;
+
+$third-color-4: #323c5a;
+$third-color-3: lighten($third-color-4, 5%);
+$third-color-2: lighten($third-color-4, 10%);
+$third-color-1: lighten($third-color-4, 15%);
+$third-color-0: #8591b0;

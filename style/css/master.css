@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Source+Sans+Pro:300,400,600,700,900");
+.event {
+  display: block;
+  padding: 0 15px 30px 15px;
+  background-color: #f8f8f8;
+  min-height: 100vh; }
+
+.event-header {
+  height: 40vh;
+  margin: 0px -15px;
+  background-position: center;
+  background-size: cover; }
+
+.event-body {
+  min-height: 50vh;
+  background-color: #f8f8f9;
+  border-radius: 10px;
+  margin-top: -18vh;
+  padding: 15px;
+  box-shadow: 0px 3px 20px #3e3e3e26; }
+  .event-body .heading h1 {
+    margin: 0; }
+  .event-body .venue {
+    padding-top: 5px;
+    padding-bottom: 10px; }
+    .event-body .venue p {
+      margin: 5px 0; }
+      .event-body .venue p i {
+        width: 20px;
+        text-align: center; }
+  .event-body .tags {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 20px; }
+    .event-body .tags .tag {
+      font-size: 0.8em;
+      padding: 2px 8px;
+      border: 1px solid #e2e2e2;
+      border-radius: 11px; }
+      .event-body .tags .tag:not(:first-child) {
+        margin-left: 10px; }
+  .event-body .going {
+    display: flex;
+    align-items: center;
+    position: relative; }
+    .event-body .going .avatars {
+      display: flex; }
+      .event-body .going .avatars .avatar {
+        background-image: url("/img/1.jpg");
+        border: 1px solid #e2e2e2;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-size: cover; }
+        .event-body .going .avatars .avatar:not(:first-child) {
+          margin-left: -15px; }
+    .event-body .going .counter {
+      padding-left: 10px;
+      font-size: 1.2em; }
+    .event-body .going .book {
+      position: absolute;
+      right: 0; }
+      .event-body .going .book a {
+        line-height: 20px;
+        color: #fafafa;
+        padding: 8px 20px;
+        font-size: 0.9em;
+        border-radius: 15px;
+        background-color: #4d5d8b;
+        border: #3b476a; }
+  .event-body .line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #e2e2e2;
+    margin: 20px 0 15px;
+    padding: 0; }
+  .event-body .hosts {
+    margin-top: 20px; }
+    .event-body .hosts .avatars {
+      margin-top: 10px;
+      display: flex; }
+      .event-body .hosts .avatars .avatar {
+        background-image: url("/img/1.jpg");
+        border-radius: 10px;
+        width: 50px;
+        height: 50px;
+        background-position: center;
+        background-size: cover; }
+        .event-body .hosts .avatars .avatar:not(:first-child) {
+          margin-left: 15px; }
+  .event-body .comments {
+    margin-top: 25px; }
+    .event-body .comments .comment {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: 1fr 4fr; }
+      .event-body .comments .comment .comment-avatar {
+        background-image: url("/img/1.jpg");
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        background-position: center;
+        background-size: cover;
+        border: 2px solid #fff; }
+      .event-body .comments .comment .comment-content h3 {
+        margin: 0;
+        font-size: 1.1em; }
+      .event-body .comments .comment .comment-content .time {
+        font-size: 0.8em; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  background-color: #f5f6fa;
+  color: #8591b0; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #323c5a;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 0px; }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 300; }
